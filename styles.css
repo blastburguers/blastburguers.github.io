@@ -1,0 +1,112 @@
+
+header {
+    background-color: #000f52; /* Color rojo coral */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 0.3s;
+    font-family:sans-serif;
+    background-image: url('th.jpg');
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px; /* Tamaño de la fuente aumentado */
+    color: #fff; /* Texto en color blanco */
+    font-family:sans-serif;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Espacio mayor entre elementos */
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000f52;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    background-image: url('th.jpg');
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 70px 0;
+    background-image: url('M.jpg');
+    border: 1px solid #000000; /* Borde ligero */
+    border-radius: 10px; /* Bordes redondeados */
+    color:#e0dddd
+    
+}
+
+section h2 {
+    margin-top: 0;
+    font-family:  sans-serif;
+    color: hsl(0, 0%, 100%); /* Color rojo coral */
+    text-align: center;
+}
+
+
+html {
+    background-image: url('J.jpg'); /* Ajusta la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el viewport */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen al fondo mientras se desplaza */
+    font-family:  sans-serif;
+    text-align: center;
+  
+}
+
+h2 {
+    color:hsl(0, 0%, 97%)
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+}
+li,h3 {
+    color: #fcfcfc;
+    text-align: center;
+}
+
+    img {
+        width: 20%; 
+        height: 25%; 
+        border: 10px solid rgb(112, 36, 219);
+
+        padding: 1px; 
+        transition: margin 0.3s ease-in-out; 
+        
+        border-radius: 8px;
+      }
+      
+      
